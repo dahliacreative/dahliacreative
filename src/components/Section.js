@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   padding: 4em 0 5em;
+  background-attachment: fixed;
   ${({ dark, light }) => {
     if (dark) {
       return `
