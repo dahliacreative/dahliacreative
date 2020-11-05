@@ -6,7 +6,8 @@ import {
   Experience,
   Education,
   Stack,
-  Contact
+  Contact,
+  Clients
 } from "./components";
 import { createGlobalStyle } from "styled-components";
 
@@ -44,6 +45,7 @@ export default function App() {
       </Section>
       <Section dark>
         <Title>Who I've worked with</Title>
+        <Clients />
       </Section>
       <Section>
         <Title>Experience</Title>
