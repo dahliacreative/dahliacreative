@@ -5,6 +5,7 @@ import dmu from "./images/dmu.svg";
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
+
   div {
     flex: 1;
     padding: 0 2em;
@@ -22,6 +23,25 @@ const Wrapper = styled.div`
 
     img {
       max-width: 100%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+
+    div {
+      padding: 0;
+      p {
+        margin: 0;
+        text-align: center;
+      }
+      &:first-child {
+        border: none;
+        margin-bottom: 1em;
+        img {
+          width: 180px;
+        }
+      }
     }
   }
 `;
