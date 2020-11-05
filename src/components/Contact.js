@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   a {
     text-decoration: none;
     color: white;
+    white-space: nowrap;
 
     &:hover {
       color: #f2bf48;
@@ -48,7 +49,7 @@ const Contact = () => (
         <a
           href="https://github.com/dahliacreative"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <Icon>
             <img src={github} alt="Github" />
@@ -60,7 +61,7 @@ const Contact = () => (
         <a
           href="https://twitter.com/dahliacreative"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <Icon>
             <img src={twitter} alt="Twitter" />
@@ -72,7 +73,7 @@ const Contact = () => (
         <a
           href="https://www.linkedin.com/in/dahliacreative/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <Icon>
             <img src={linkedin} alt="LinkeIn" />
@@ -84,7 +85,7 @@ const Contact = () => (
 
     <p>
       <a href="mailto:simon@dahliacreative.com">simon@dahliacreative.com</a> |{" "}
-      <a href="tel:00447736832034">+44 (0)7736832034</a>
+      <a href="tel:00447736832034">+44 (0) 7736832034</a>
     </p>
   </Wrapper>
 );
