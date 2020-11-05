@@ -5,7 +5,8 @@ import {
   Title,
   Experience,
   Education,
-  Stack
+  Stack,
+  Contact
 } from "./components";
 import { createGlobalStyle } from "styled-components";
 
@@ -118,6 +119,7 @@ export default function App() {
       </Section>
       <Section dark>
         <Title>Contact</Title>
+        <Contact />
       </Section>
     </>
   );
